@@ -1,0 +1,66 @@
+*{
+	box-sizing: border-box;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 18px;
+}
+
+h1{
+	font-size: 175%;
+	text-align: center;
+}
+
+p {
+	clear: both;
+	padding: 5px;
+	margin: 5%;
+}
+
+div {
+	float: left;
+	background-color: #d3d3d3;
+	width: 94%;
+	margin:3%;
+  	border: 1px solid black;
+  	position: relative;
+}
+
+header{
+	float: right;
+	background-color: blue;
+	width: 40%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	text-align: center;
+	margin-bottom: 3%;
+	font-size: 125%;
+	border: 1px solid black;
+	border-top: 0px;
+	border-right: 0px;
+	 font-weight: bold;
+
+}
+
+header.h1{
+	background-color: #00a0ff;
+}
+
+header.h2{
+	background-color: #90EE90;
+}
+header.h3{
+	background-color: #123456;
+	color: white;
+}
+
+@media (min-width: 992px){
+.col-lg-4{
+	width: 30%;
+	margin: 1.66%;
+ }
+}
+@media (min-width: 768px) and (max-width: 991px){
+.col-md-6{
+	width: 45%;
+	margin: 2.5%;
+}
+}
