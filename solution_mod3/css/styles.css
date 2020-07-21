@@ -1,0 +1,50 @@
+*{
+	box-sizing: border-box;
+}
+
+
+nav.navbar-default {
+	background-color:pink;
+
+}
+
+.navbar-header a, .navbar-header a:focus, .navbar-header a:hover {
+	text-decoration: none;
+	color: purple;
+}
+
+
+#main div.card{
+	position:relative;
+	margin: 20px 0px;
+	background-color: #b2b5ac;
+	box-shadow: 0 0 3px;
+	clear:both;
+}
+
+#main div.card .card-title{
+		
+	background-color: pink;
+	border: 1px;
+	text-align: center;
+	opacity: .9;
+	display: block;
+
+}
+
+#main div.card p{
+	margin: 9px;
+}
+
+#nav-list{
+	background-color:black;
+	color:white;
+
+}
+@media (min-width: 767px){
+	.navbar-header h1{
+	margin-bottom: 30px;
+}
+}
+
+}
